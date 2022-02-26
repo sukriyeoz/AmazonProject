@@ -1,0 +1,56 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-23T02:45:28.420Z",
+        "line": 5,
+        "name": "User should be able to access amazon web page",
+        "description": "",
+        "id": "us01-login;user-should-be-able-to-access-amazon-web-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20827549000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to amazon home page \"amazonUrl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 34
+                }
+              ],
+              "location": "ui.stepDefinitions.US01_Login.userNavigateToAmazonHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "US01_Login",
+    "description": "",
+    "id": "us01-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/uiFeature/US01.feature",
+    "tags": [
+      {
+        "name": "@smokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
