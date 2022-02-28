@@ -7,6 +7,6 @@ Feature: US04_Search_Product
   Scenario: When the user searches for a product, all listed products must contain the searched word
 
       Given User navigate to amazon home page "amazonUrl"
-      And User enter "Nutella" as a key word to the search bar and click the seacrh icon
+      And User enter "Nutella" as a key word to the search bar and click the search icon
      Then Verify that all search result contains "Nutella"
 

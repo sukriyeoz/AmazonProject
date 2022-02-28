@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.948">
-    <testcase classname="US01_Login" name="User should be able to access amazon web page" time="21.068">
-        <system-out>
-            <![CDATA[Given User navigate to amazon home page "amazonUrl".........................passed
-]]>
-        </system-out>
-    </testcase>
-</testsuite>

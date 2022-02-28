@@ -42,7 +42,32 @@ public class AmazonWebElements {
    // @FindBy(xpath = "//*[text()[contains(.,'Nutella')]]")
     public List<WebElement> searchedProduct;
 
+    @FindBy(xpath = "//span[@class='a-size-base a-color-base'][text()='Free Shipping by Amazon']")
+    public WebElement filteringByProduct;
 
+    @FindBy(xpath = "//div[@class='sg-col-inner']")
+    public List<WebElement> filteringTag;
+
+    @FindBy(xpath = "//span[@data-action='a-dropdown-button']")
+    public WebElement sortDropDown;
+
+    @FindBy(xpath = "//a[@id='s-result-sort-select_1'][text()='Price: Low to High'][1]")
+    public WebElement sortPriceLowToHigh;
+
+    @FindBy(xpath = "//span[@class='a-offscreen']")
+    public List<WebElement> sortedPriced;
+
+    @FindBy(xpath = "//span[@class='a-price-whole']")
+    public List<WebElement>  priceWhole;
+
+    @FindBy(xpath = "//span[@class='a-price-fraction']")
+    public List<WebElement>  priceFraction;
+
+    @FindBy(xpath = "(//span[@class='a-price'])[1]")
+    public WebElement sortedPricedDeneme;
+
+    @FindBy(xpath = "//tr[1]/td[13]")
+    public WebElement alexaFeature;
 
 
 
